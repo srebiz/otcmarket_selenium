@@ -1,0 +1,11 @@
+name: otcmarket
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pytest>=7.0
+  - pytest-cov>=4.0
+  - pip:
+    - simplefix>=1.0.17
